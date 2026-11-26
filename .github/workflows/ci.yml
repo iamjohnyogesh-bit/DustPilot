@@ -13,4 +13,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: swift test
-      - run: scripts/build.sh
+      - run: bash scripts/build.sh
