@@ -28,8 +28,8 @@ macOS 14+, Swift 5.9+ (Xcode 15+ or Command Line Tools).
 ## Run, test, build
 ```bash
 swift run                 # run from source
-scripts/test.sh           # unit tests
-scripts/build.sh          # build/DustPilot.app (ad-hoc signed; right-click > Open the first time)
+bash scripts/test.sh           # unit tests
+bash scripts/build.sh          # build/DustPilot.app (ad-hoc signed; right-click > Open the first time)
 ```
 
 ## Layout
